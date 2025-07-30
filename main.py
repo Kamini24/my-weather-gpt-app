@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query
+yfrom fastapi import FastAPI, Query
 import requests
 import openai
 import os
@@ -8,7 +8,7 @@ from openai import OpenAI
 app = FastAPI()
 
 # Load your keys here
-OPENWEATHER_API_KEY = "f4d39be649d2c2616a6088a3822c315b"
+OPENWEATHER_API_KEY = "key"
 
 client = OpenAI(api_key ='your api secret key here'
 )
